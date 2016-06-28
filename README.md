@@ -1,4 +1,7 @@
 # AlexaHackathon.com
-Promotional web site for the Alexa Hackathon
+Promotional web site for the upcoming Alexa Hackathons
 
-This repo accepts pull requestions updated PHP files located in the /locations/
+For those hosting hackathons, edit your PHP file located in the /locations/ directory. 
+
+http://alexahackathon.com/
+

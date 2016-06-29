@@ -11,9 +11,9 @@ $venuemaplink = "https://www.google.com/maps/place/Grand+Rapids,+MI/@42.9563371,
 $eventbritelink = "https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26064255891";
 $venuesplash = "";
 $venueimg = "/img/davenportu.jpg";
-$venuelink = $eventbritelink; // "http://www.randolphschool.net/";
+$venuelink = "http://www.davenport.edu/";
 $venueembed = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11700.361700054898!2d-85.5301864!3d42.8498238!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x679c199b80d83215!2sDavenport+University!5e0!3m2!1sen!2sus!4v1467202404409";
-$venueslogan = "( More info coming soon )";
+$venueslogan = "Davenport University‎";
 
 $asktovolunteerlink = "https://www.hackster.io/kayakpete";
 

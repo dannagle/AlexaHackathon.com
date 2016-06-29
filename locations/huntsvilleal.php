@@ -32,3 +32,9 @@ $volunteer1Name = "Chris Beaman";
 $volunteer1Link = "https://twitter.com/cgbeaman";
 $volunteer1Image = "https://pbs.twimg.com/profile_images/746793419289300992/fuRjpyUp.jpg";
 $volunteer1Title = "Marketing";
+
+
+$volunteer2Name = "Tomas Gallucci";
+$volunteer2Link = "https://twitter.com/professortom";
+$volunteer2Image = "https://avatars2.githubusercontent.com/u/3181296?v=3&s=400";
+$volunteer2Title = "Lacky";

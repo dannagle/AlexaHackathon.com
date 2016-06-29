@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
-$activelinks = array("Huntsville, AL", "London, KY", "Billings, MT", "Santa Clara, CA", 
+$activelinks = array("Huntsville, AL", "London, KY", "Billings, MT", "Santa Clara, CA",
 "Grand Rapids, MI", "Dallas, TX", "Philadelphia, PA", "Indianapolis, IN");
 
 /*
@@ -138,7 +138,7 @@ function echoActiveLink($thelink) {
     <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
       <div class="container-fluid">
         <div class="navbar-header">
-        
+
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -162,7 +162,7 @@ function echoActiveLink($thelink) {
         <div class="text-vertical-center headerblurb" >
         <div   style="background-color:rgba(255, 255, 255, 0.7);">
             <h1 ><?=$promoHash?> Hackathon</h1>
-            
+
             <h2>Presented by <a href="https://www.hackster.io/live">#HacksterLive</a> &amp; <a href="https://developer.amazon.com/public/solutions/alexa">#AmazonAlexa</a></h2>
             <h3><?=$datetime?> at <a target="_blank" href="<?=$venuemaplink?>"><?=$venuename?></a></h3>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
@@ -177,7 +177,7 @@ function echoActiveLink($thelink) {
                 <div class="col-lg-12 text-center">
                     <h2><a target="_blank" href="<?=$eventbritelink?>"><i class="fa fa-ticket" aria-hidden="true"></i> Tickets Available! <i class="fa fa-ticket" aria-hidden="true"></i></a></h2>
                     <p><a target="_blank" href="https://developer.amazon.com/public/solutions/alexa">Alexa</a> is the speech and personal assistant technology behind <a target="_blank" href="https://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E">Amazon Echo</a>. Today you can use Alexa to listen to music, play games, check traffic and weather, control your household devices, and lots more. Alexa offers a full-featured <a target="_blank" href="https://developer.amazon.com/public/solutions/alexa">set of APIs and SDKs</a> that you can use to teach her new skills and add her into devices and applications of your own. </p><br>
-                    <p><a target="_blank" href="https://twitter.com/memodoring">Memo Doring</a>, Alexa Developer Evangelist at Amazon, will be teaching <a target="_blank" href="<?=$eventbritelink;?>">Alexa Skill Building 101</a>. In this talk, intended for software and hardware developers interested in voice control, home automation, and personal assistant technology, we will walk through the development of a new Alexa skill and incorporate it into a consumer-facing device.</p>
+                    <p><a target="_blank" href="https://twitter.com/memodoring">Memo Doring</a>, Alexa Developer Evangelist at Amazon, will be teaching <a target="_blank" href="<?=$eventbritelink;?>">Alexa Skill Building 101</a> starting at noon. In this talk, intended for software and hardware developers interested in voice control, home automation, and personal assistant technology, we will walk through the development of a new Alexa skill and incorporate it into a consumer-facing device.</p>
                     <br>
                     <h1><a href="https://twitter.com/alexadevs">@alexadevs</a></h1>
                 </div>
@@ -396,8 +396,25 @@ function echoActiveLink($thelink) {
 
                     }
 
+                     if(!empty($volunteer2Name)) {
 
-                     ?>
+                         ?>
+                         <div class="col-md-6">
+                             <a target="_blank" href="<?=$volunteer2Link?>">
+                             <h3><?=$volunteer2Name?><br><br>
+                             <img class="img-circle img-responsive" src="<?=$volunteer2Image?>" alt="<?=$volunteer2Name?>"><br>
+                             <?=$volunteer2Title?></h3><br>
+                         </a>
+                         </div>
+
+                         <?php
+
+
+                     }
+?>
+
+
+
                 </div>
             </div>
             <div class="row">
@@ -432,7 +449,7 @@ function echoActiveLink($thelink) {
 
     // Scrolls to the selected menu item on the page
     $(function() {
-        
+
         $(window).bind("load resize", function() {
             topOffset = 50;
             width = (this.window.innerWidth > 0) ? this.window.innerWidth : this.screen.width;
@@ -451,8 +468,8 @@ function echoActiveLink($thelink) {
                 $("#page-wrapper").css("min-height", (height) + "px");
             }
         });
-    
-        
+
+
         $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
@@ -466,12 +483,12 @@ function echoActiveLink($thelink) {
                 }
             }
         });
-        
-        
+
+
     });
     </script>
 
-    
+
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

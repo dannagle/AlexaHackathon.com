@@ -24,7 +24,7 @@ $hostImage = "https://pbs.twimg.com/profile_images/746395310751088640/oR-8WkUi.j
 $hostTitle = "Host";
 
 $coHostName = "Tyler Hughes";
-$coHostLink = "https://twitter.com/NagleCode";
+$coHostLink = "https://twitter.com/thughesIT";
 $coHostImage = "https://pbs.twimg.com/profile_images/692549853554024448/SbKevkJY.png";
 $coHostTitle = "Co-host";
 

@@ -19,7 +19,7 @@ $asktovolunteerlink = "https://www.hackster.io/kayakpete";
 
 $hostName = "Pete Hoffswell";
 $hostLink = "https://www.hackster.io/kayakpete";
-$hostImage = "https://hackster.imgix.net/uploads/avatar/file/122557/tIc73W70.jpeg?w=400&h=400&fit=min&fm=jpg";
+$hostImage = "https://hackster.imgix.net/uploads/avatar/file/165060/pete2014.jpg?w=400&h=400&fit=min&fm=jpg";
 $hostTitle = "Host";
 
 

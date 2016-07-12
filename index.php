@@ -36,13 +36,18 @@ if(empty($_GET["page"])) {
 } else {
 
     $location = "locations/".$_GET["page"].".php";
+    $locationinclude = $location;
 
     if(file_exists($locationinclude)) {
         $locationinclude = $location;
+    } else {
+        header("Location: /huntsvilleal");     
     }
 }
 
+
 include_once $locationinclude;
+
 
 ?><!DOCTYPE html>
 <html lang="en">

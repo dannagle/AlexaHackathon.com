@@ -285,13 +285,18 @@ function echoActiveLink($thelink) {
                                 Hackster.io/Amazon-Alexa</a>
                         </div>
                         <div class="col-md-6">
-                            &bull; <a href="                        https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide">
+                            &bull; <a href="https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide">
                                 Alexa Skills Kit Guide</a>
                         </div>
                         <div class="col-md-6">
                             &bull; <a href="https://github.com/amzn/alexa-skills-kit-js">
                                 Node.js Alexa Skills Kit Samples</a>
                         </div>
+                        <div class="col-md-6">
+                            &bull; <a href="https://www.youtube.com/channel/UCbx0SPpWT6yB7_yY_ik7pmg">
+                                Alexa Developers YouTube</a>
+                        </div>
+
                         <div class="col-md-6">
                             &bull; <a href="https://developer.amazon.com/public/solutions/alexa">
                                 Alexa Developer Portal</a>

@@ -354,7 +354,7 @@ function echoActiveLink($thelink) {
                                         </h2>
 
 
-                    <div class="col-md-6">
+                    <div class="col-md-5">
 
                         <a target="_blank" href="<?=$hostLink?>">
                         <h3><?=$hostName?><br><br>
@@ -367,7 +367,7 @@ function echoActiveLink($thelink) {
 
                         ?>
 
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <a target="_blank" href="<?=$coHostLink?>">
                         <h3><?=$coHostName?><br><br>
                         <img class="img-circle img-responsive" src="<?=$coHostImage?>" alt="<?=$coHostName?>"><br>
@@ -388,7 +388,7 @@ function echoActiveLink($thelink) {
                     if(!empty($volunteer1Name)) {
 
                         ?>
-                        <div class="col-md-6">
+                        <div class="col-md-5">
                             <a target="_blank" href="<?=$volunteer1Link?>">
                             <h3><?=$volunteer1Name?><br><br>
                             <img class="img-circle img-responsive" src="<?=$volunteer1Image?>" alt="<?=$volunteer1Name?>"><br>
@@ -404,7 +404,7 @@ function echoActiveLink($thelink) {
                      if(!empty($volunteer2Name)) {
 
                          ?>
-                         <div class="col-md-6">
+                         <div class="col-md-5">
                              <a target="_blank" href="<?=$volunteer2Link?>">
                              <h3><?=$volunteer2Name?><br><br>
                              <img class="img-circle img-responsive" src="<?=$volunteer2Image?>" alt="<?=$volunteer2Name?>"><br>

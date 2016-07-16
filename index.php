@@ -41,12 +41,17 @@ if(empty($_GET["page"])) {
     if(file_exists($locationinclude)) {
         $locationinclude = $location;
     } else {
-        header("Location: /huntsvilleal");     
+        header("Location: /huntsvilleal");
     }
 }
 
 
 include_once $locationinclude;
+
+$time = strtotime($datetime);
+$now = time();
+
+$active = ($now <= $time) ;
 
 
 ?><!DOCTYPE html>
@@ -166,11 +171,27 @@ function echoActiveLink($thelink) {
     <header id="top" class="header">
         <div class="text-vertical-center headerblurb" >
         <div   style="background-color:rgba(255, 255, 255, 0.7);">
-            <h1 ><?=$promoHash?> Hackathon</h1>
 
+
+            <?php
+            if(!$active) {
+                echo "<h1>Thanks for coming!</h1>";
+                echo "<h2 >$promoHash Hackathon</h2>";
+            } else {
+                echo "<h1 >$promoHash Hackathon</h1>";
+            }
+            ?>
             <h2>Presented by <a href="https://www.hackster.io/live">#HacksterLive</a> &amp; <a href="https://developer.amazon.com/public/solutions/alexa">#AmazonAlexa</a></h2>
             <h3><?=$datetime?> at <a target="_blank" href="<?=$venuemaplink?>"><?=$venuename?></a></h3>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <?php
+            if($active) {
+            ?>
+            <h2><a target="_blank" href="<?=$eventbritelink?>"><i class="fa fa-ticket" aria-hidden="true"></i> Tickets Available! <i class="fa fa-ticket" aria-hidden="true"></i></a></h2>
+            <?php
+            }
+            ?>
+
             </div>
         </div>
     </header>
@@ -180,7 +201,17 @@ function echoActiveLink($thelink) {
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2><a target="_blank" href="<?=$eventbritelink?>"><i class="fa fa-ticket" aria-hidden="true"></i> Tickets Available! <i class="fa fa-ticket" aria-hidden="true"></i></a></h2>
+                    <?php
+                    if(!$active) {
+                        echo "<h2>Thanks for coming!</h2>";
+                    } else {
+                        ?>
+                        <h2><a target="_blank" href="<?=$eventbritelink?>"><i class="fa fa-ticket" aria-hidden="true"></i> Tickets Available! <i class="fa fa-ticket" aria-hidden="true"></i></a></h2>
+
+                        <?php
+                    }
+
+                    ?>
                     <p><a target="_blank" href="https://developer.amazon.com/public/solutions/alexa">Alexa</a> is the speech and personal assistant technology behind <a target="_blank" href="https://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E">Amazon Echo</a>. Today you can use Alexa to listen to music, play games, check traffic and weather, control your household devices, and lots more. Alexa offers a full-featured <a target="_blank" href="https://developer.amazon.com/public/solutions/alexa">set of APIs and SDKs</a> that you can use to teach her new skills and add her into devices and applications of your own. </p><br>
                     <p><a target="_blank" href="https://twitter.com/memodoring">Memo Doring</a>, Alexa Developer Evangelist at Amazon, will be teaching <a target="_blank" href="<?=$eventbritelink;?>">Alexa Skill Building 101</a>. In this talk, intended for software and hardware developers interested in voice control, home automation, and personal assistant technology, we will walk through the development of a new Alexa skill and incorporate it into a consumer-facing device.</p>
                     <br>
@@ -235,9 +266,16 @@ function echoActiveLink($thelink) {
                                 <h4>
                                     <strong>Ticket</strong>
                                 </h4>
+                                <?php
+                                if($active) {
+                                    ?>
+                                     <a target="_blank" class="btn btn-lg btn-light"
+                                     href="<?=$eventbritelink;?>">Get Tickets!</a></p>
+                                        <?php
+                                }
+
+                                ?>
                                 <p>
-                                 <a target="_blank" class="btn btn-lg btn-light"
-                                 href="<?=$eventbritelink;?>">Get Tickets!</a></p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -339,7 +377,17 @@ function echoActiveLink($thelink) {
                     <iframe width="100%" height="500px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<?=$venueembed?>" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <h3><a target="_blank" class="btn btn-lg btn-light"  href="<?=$eventbritelink;?>">Are you ready?</a></h3>
+                    <?php
+                    if($active) {
+                        ?>
+                        <h3><a target="_blank" class="btn btn-lg btn-light"  href="<?=$eventbritelink;?>">Are you ready?</a></h3>
+                            <?php
+                    }
+
+                    ?>
+
+
+
                     <a target="_blank" href="https://www.hackster.io/"><img class="center-block img-responsive" src="img/hackster-dot-io-logo.png"></a> <br>
                     <a target="_blank" href="https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide"><img class="center-block img-responsive" src="img/amazon-alexa-logo.png"></a>
 

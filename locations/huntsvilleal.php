@@ -8,6 +8,7 @@ $bgsplah = "/img/bigspringpark.jpg";
 $datetime = "Oct 16, Noon";
 $datetimesimple = "2016-10-16 12:00pm";
 $venuename = "Randolph School - Garth Campus";
+$facebookAlbum = "https://www.facebook.com/media/set/?set=oa.284311145259425&type=3";
 $venuemaplink = "https://www.google.com/maps/place/Randolph+School+-+Garth+Campus/@34.6958688,-86.5515813,15z/data=!4m5!3m4!1s0x0:0x1b16fc8a3828891b!8m2!3d34.6958688!4d-86.5515813";
 $eventbritelink = "https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26048773583";
 $venuesplash = "/img/randolphblue.png";

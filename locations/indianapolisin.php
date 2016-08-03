@@ -8,6 +8,7 @@ $bgsplah = "/img/indianapolisin.jpg";
 $datetime = "Aug 13, Noon";
 $datetimesimple = "2016-8-13 12:00pm";
 $venuename = "TBD";
+$facebookAlbum = "";
 $venuemaplink = "https://www.google.com/maps/place/Indianapolis,+IN/@39.7799637,-86.2731768,11z/data=!3m1!4b1!4m5!3m4!1s0x886b50ffa7796a03:0xd68e9df640b9ea7c!8m2!3d39.768403!4d-86.158068";
 $eventbritelink = "https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26046981222";
 $venuesplash = "";

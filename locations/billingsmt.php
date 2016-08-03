@@ -8,6 +8,7 @@ $bgsplah = "/img/billingsmt.jpg";
 $datetime = "Aug 6, Noon";
 $datetimesimple = "2016-8-6 12:00pm";
 $venuename = "TBD";
+$facebookAlbum = "https://www.facebook.com/media/set/?set=oa.284307005259839&type=3";
 $venuemaplink = "https://www.google.com/maps/place/Billings,+MT/@45.7818339,-108.7037677,11z/data=!3m1!4b1!4m5!3m4!1s0x53486f8888fa9d97:0x373556d4f179b550!8m2!3d45.7832856!4d-108.5006904";
 $eventbritelink = "https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26046995264";
 $venuesplash = "";

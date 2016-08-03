@@ -8,6 +8,7 @@ $bgsplah = "/img/dallastx.jpg";
 $datetime = "July 9, 9:00 am";
 $datetimesimple = "2016-7-9 9:00am";
 $venuename = "Improving";
+$facebookAlbum = "https://www.facebook.com/media/set/?set=oa.284310655259474&type=3";
 $venuemaplink = "https://www.google.com/maps/place/Improving/@32.9770338,-96.8269528,15z/data=!4m5!3m4!1s0x0:0x93e3cd120aeda77a!8m2!3d32.9770338!4d-96.8269528";
 $eventbritelink = "https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26046969186";
 $venuesplash = "/img/improvingsplash.jpg";

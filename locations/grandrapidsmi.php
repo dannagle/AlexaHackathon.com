@@ -8,6 +8,7 @@ $bgsplah = "/img/grandrapidsmi.jpg";
 $datetime = "Oct 1 at 9:00 AM";
 $datetimesimple = "2016-10-1 9:00am";
 $venuename = "Davenport University";
+$facebookAlbum = "";
 $venuemaplink = "https://www.google.com/maps/place/Grand+Rapids,+MI/@42.9563371,-85.7301286,12z/data=!3m1!4b1!4m5!3m4!1s0x88185460bb502815:0xa593aacb1bd3a8d0!8m2!3d42.9633599!4d-85.6680863";
 $eventbritelink = "https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26064255891";
 $venuesplash = "";

@@ -8,6 +8,7 @@ $bgsplah = "/img/santaclaraca.jpg";
 $datetime = "July 30, Noon";
 $datetimesimple = "2016-7-30 12:00pm";
 $venuename = "TBD";
+$facebookAlbum = "https://www.facebook.com/media/set/?set=oa.284313161925890&type=3";
 $venuemaplink = "https://www.google.com/maps/place/Santa+Clara,+CA/@37.3708853,-122.002572,13z/data=!3m1!4b1!4m5!3m4!1s0x808fb7815c08c193:0xe475a47ca3c0bfc0!8m2!3d37.3541079!4d-121.9552356";
 $eventbritelink = "https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26046925054";
 $venuesplash = "";

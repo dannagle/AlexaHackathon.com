@@ -12,6 +12,7 @@ $activelinks = array(
 "Huntsville, AL"
 );
 
+$activelinks = array_reverse($activelinks);
 
 //echo $_GET["page"];exit;
 

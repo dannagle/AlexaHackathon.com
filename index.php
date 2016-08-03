@@ -1,27 +1,16 @@
 <?php
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
-$activelinks = array("Huntsville, AL", "London, KY", "Billings, MT", "Santa Clara, CA",
-"Grand Rapids, MI", "Dallas, TX", "Philadelphia, PA", "Indianapolis, IN");
-
-/*
-Monica Houston - San Francisco, CA	12-Jun		https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-25747094252
-Memo Doring - Seattle, WA	18-Jun		https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-25851338048
-Christopher Poage - Phoenix	26-Jun		https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-25747810394
-Harold Pulcher - Dallas, TX	9-Jul	Dallas
-Paul Langdon - Connecticut	9-Jul	Connecticut	https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-25747944796
-Ron Dagdag - Dallas, TX	9-Jul	Dallas	https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26046969186	ready to share
-Leslie Birch - Philadelphia	16-Jul		https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26046981222	ready to share
-Johnie Karr - London, KY	23-Jul	London	https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26048512803	ready to share
-Phillip Horn - London, Kentucky	23-Jul	London
-Aradhana Duppala - Santa Clara, CA	30-Jul	Santa Clara	https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26046925054	ready to share
-Shivansh Singh - Santa Clara, CA	30-Jul	Santa Clara
-Joe Reese - Billings, MT	6-Aug		https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26046995264	ready to share
-Austin Owens - Indianapolis	13-Aug		https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26048761547	not ready
-Pete Hoffswell - Holland Michigan	1-Oct	Grand Rapids	https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26064255891	ready to share
-Dan Nagle - Huntsville, AL	16-Oct		https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26048773583	ready to share
-
-*/
+$activelinks = array(
+"Dallas, TX",
+"Philadelphia, PA",
+"London, KY",
+"Santa Clara, CA",
+"Billings, MT",
+"Indianapolis, IN",
+"Grand Rapids, MI",
+"Huntsville, AL"
+);
 
 
 //echo $_GET["page"];exit;

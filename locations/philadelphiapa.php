@@ -6,6 +6,7 @@ $location = "Philadelphia, PA";
 $promoHash = "#AlexaPHL";
 $bgsplah = "/img/philadelphiapa.jpg";
 $datetime = "July 16, Noon";
+$datetimesimple = "2016-7-16 12:00pm";
 $venuename = "TBD";
 $venuemaplink = "https://www.google.com/maps/place/Philadelphia,+PA/@40.0046684,-75.2581171,11z/data=!3m1!4b1!4m5!3m4!1s0x89c6b7d8d4b54beb:0x89f514d88c3e58c1!8m2!3d39.9525839!4d-75.1652215?sa=X&ved=0ahUKEwiMw5jU3srNAhXGMSYKHa8HAh8Q8gEIigEwEw";
 $eventbritelink = "https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26046981222";

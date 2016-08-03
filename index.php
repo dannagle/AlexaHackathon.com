@@ -48,7 +48,7 @@ if(empty($_GET["page"])) {
 
 include_once $locationinclude;
 
-$time = strtotime($datetime);
+$time = strtotime($datetimesimple);
 $now = time();
 
 $active = ($now <= $time) ;

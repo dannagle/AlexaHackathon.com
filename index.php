@@ -6,8 +6,8 @@ $activelinks = array(
 "Philadelphia, PA",
 "London, KY",
 "Santa Clara, CA",
-"Billings, MT",
 "Indianapolis, IN",
+"Billings, MT",
 "Grand Rapids, MI",
 "Huntsville, AL"
 );

@@ -20,8 +20,8 @@ $venueslogan = "HOUSTON'S HUB FOR INNOVATION";
 $asktovolunteerlink = "https://www.meetup.com/Hackster-Hardware-Meetup-Houston/events/233438715/";
 
 $hostName = "Julio Cesar Rodriguez";
-$hostLink = "https://www.hackster.io/user347812652";
-$hostImage = "https://hackster.imgix.net/uploads/avatar/file/121642/10403513_10205387920595164_6666410882932474311_n.jpg?w=400&h=400&fit=min&fm=jpg";
+$hostLink = "https://www.hackster.io/jhey";
+$hostImage = "https://gravatar.com/avatar/18843f0987d35a4ac5f90afe046bd6ad.png?d=retro&s=200";
 $hostTitle = "host";
 
 $coHostName = "";

@@ -3,14 +3,14 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 $activelinks = array(
 "Dallas, TX",
-"Philadelphia, PA",
 "London, KY",
 "Santa Clara, CA",
 "Indianapolis, IN",
 "Houston, TX",
 "Billings, MT",
 "Grand Rapids, MI",
-"Huntsville, AL"
+"Huntsville, AL",
+"Philadelphia, PA",
 );
 
 $activelinks = array_reverse($activelinks);

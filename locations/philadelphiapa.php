@@ -9,7 +9,7 @@ $datetime = "October 22nd, 8:00 AM";
 $datetimesimple = "2016-10-22 8:00am";
 $venuename = "Drexel University ExCITe Center";
 $venuemaplink = "https://www.google.com/maps/place/ExCITe+Center/@39.9563052,-75.1939145,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6c651a5526609:0x9e1db53bc8498fd5!8m2!3d39.9563011!4d-75.1917258";
-$eventbritelink = "https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-26046981222";
+$eventbritelink = "https://www.eventbrite.com/e/hackster-amazon-present-alexa-skill-building-101-tickets-27230263451";
 $venuesplash = "";
 $venueimg = "/img/ExciteCenter.png";
 $venuelink = $eventbritelink; // "http://www.drexel.edu/excite/";

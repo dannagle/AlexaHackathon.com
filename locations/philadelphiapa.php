@@ -16,6 +16,9 @@ $venuelink = $eventbritelink; // "http://www.drexel.edu/excite/";
 $venueembed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.3330796273945!2d-75.1939144847026!3d39.95630519143639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c651a5526609%3A0x9e1db53bc8498fd5!2sExCITe+Center!5e0!3m2!1sen!2sus!4v1472760768603";
 $venueslogan = "Drexel University ExCITe Center";
 
+//If not Memo
+$instructor = "Robert McCauley";
+
 $asktovolunteerlink = "https://www.hackster.io/zengirl2";
 
 $hostName = "Leslie Birch";
@@ -23,8 +26,11 @@ $hostLink = "https://www.hackster.io/zengirl2";
 $hostImage = "https://hackster.imgix.net/uploads/avatar/file/120607/GirlMS.jpg?w=400&h=400&fit=min&fm=jpg";
 $hostTitle = "Host";
 
+$coHostName = "The Hacktory & The Philadelphia Alexa Meetup";
+$coHostLink = "https://www.thehacktory.org/";
+$coHostImage = "https://pbs.twimg.com/profile_images/644935452164657152/fYuoF8hz_400x400.jpg";
+$coHostTitle = "Co-hosts";
 
-$coHostName = "";
 
 $volunteer1Name = "";
 $volunteer1Link = "";

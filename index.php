@@ -203,8 +203,14 @@ function echoActiveLink($thelink) {
                     }
 
                     ?>
+                    <?php if (empty($instructor)) {
+                        $instructor = '<a target="_blank" href="https://twitter.com/memodoring">Memo Doring</a>';
+                    }
+
+                    ?>
+
                     <p><a target="_blank" href="https://developer.amazon.com/public/solutions/alexa">Alexa</a> is the speech and personal assistant technology behind <a target="_blank" href="https://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E">Amazon Echo</a>. Today you can use Alexa to listen to music, play games, check traffic and weather, control your household devices, and lots more. Alexa offers a full-featured <a target="_blank" href="https://developer.amazon.com/public/solutions/alexa">set of APIs and SDKs</a> that you can use to teach her new skills and add her into devices and applications of your own. </p><br>
-                    <p><a target="_blank" href="https://twitter.com/memodoring">Memo Doring</a>, Alexa Developer Evangelist at Amazon, will be teaching <a target="_blank" href="<?=$eventbritelink;?>">Alexa Skill Building 101</a>. In this talk, intended for software and hardware developers interested in voice control, home automation, and personal assistant technology, we will walk through the development of a new Alexa skill and incorporate it into a consumer-facing device.</p>
+                    <p><?=$instructor;?>, Alexa Developer Evangelist at Amazon, will be teaching <a target="_blank" href="<?=$eventbritelink;?>">Alexa Skill Building 101</a>. In this talk, intended for software and hardware developers interested in voice control, home automation, and personal assistant technology, we will walk through the development of a new Alexa skill and incorporate it into a consumer-facing device.</p>
                     <br>
                     <h1><a href="https://twitter.com/alexadevs">@alexadevs</a></h1>
                 </div>

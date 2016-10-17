@@ -19,10 +19,10 @@ $activelinks = array_reverse($activelinks);
 
 
 
-$locationinclude = "locations/huntsvilleal.php";
+$locationinclude = "locations/philadelphiapa.php";
 
 if(empty($_GET["page"])) {
-    header("Location: /huntsvilleal");
+    header("Location: /philadelphiapa");
     exit;
 } else {
 
@@ -32,7 +32,7 @@ if(empty($_GET["page"])) {
     if(file_exists($locationinclude)) {
         $locationinclude = $location;
     } else {
-        header("Location: /huntsvilleal");
+        header("Location: /philadelphiapa");
     }
 }
 
